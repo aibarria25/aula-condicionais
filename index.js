@@ -97,6 +97,22 @@ if (turno === "M"){
 }
 */
 //3-
+const turno = prompt('Qual turno do dia que voce estuda? Digite M para matutino, V para Vespertino ou N para Noturno').toUpperCase()
+switch (turno){
+  case "M":
+  console.log("Bom Dia!")
+  break
+  case "V":
+    console.log("Boa Tarde!")
+    break
+    case "N":
+      console.log("Boa Noite!")
+}
+
+
+
+/*
+//4-
 const generoDoFilme = prompt("Digite o genero do filme que gostaria asistir").toLowerCase()
 const preçoIngresso = prompt("Digite o preço para assistir o filme")
 
@@ -106,3 +122,4 @@ console.log("Bom filme!")
 }else{
   console.log("Escolha outro filme :(")
 }
+*/
